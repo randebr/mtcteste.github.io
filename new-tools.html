@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MW MTC</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2cbadf8cfc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<main>
+    <header class="header">
+        <a href="/">
+            <h1>MW MTC</h1>
+        </a>
+    </header>
+    <section class="menu">
+        <span class="menu-toggle" onclick="toogleMenu()">
+            <i class="fa-solid fa-bars"></i>
+          <p class="text-options">Options</p>
+          </span>
+      <ul>
+        <li>
+            <a href="/">
+               <h2>
+                   Início
+               </h2> 
+            </a>
+        </li>
+          <li>
+              <a href="mw-frontline-introductory-journey.html" >
+                 <h2>
+                     MW Frontline Introductory Journey
+                 </h2> 
+              </a>
+          </li>
+          <li>
+              <a href="/mw-information-worker-introductory-journey.html">
+             <h2>
+              MW Information Worker Introductory Journey
+             </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/ai.html">
+                  <h2>
+                      AI
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/new-tools.html" style="text-decoration: underline!important;">
+                  <h2>
+                      New Tools
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/from-onboard-to-maintaining-effective-communication-and-connection-with-the-workForce.html">
+                  <h2>
+                      From Onboard to maintaining effective communication and connection with the WorkForce
+                  </h2>
+              </a>
+          </li>
+      </ul>
+  </section>
+  <div class="title-page">
+    <h2>New Tools</h2>
+  </div>
+    <section class="agenda">
+      <span>schedule</span>
+     <div class="container">
+      <ul class="ulShow">
+        <li onclick="showDescription(1)">
+          <h3>Welcome & Customer Discussion</h3>
+        </li>
+        <li onclick="showDescription(2)">
+          <h3>What's New</h3>
+        </li>
+        <li onclick="showDescription(3)">
+          <h3>How to use</h3>
+        </li>
+        <li onclick="showDescription(4)">
+          <h3>Connect to business Scenario</h3>
+        </li>
+        <li onclick="showDescription(5)">
+          <h3>handsOn</h3>
+        </li>
+        <li onclick="showDescription(6)">
+          <h3>Wrap up and Next steps</h3>
+        </li>
+        <li onclick="showDescription(7)">
+            <h3>Magic Moment (Hololens)</h3>
+          </li>
+      </ul>
+      <div class="description">
+        <span>Description</span>
+        <ul>
+            <li id="description-1" class="active">
+                <p>Uma abertura para conhecer as pessoas do cliente, deixar o cliente contar um pouco sobre ele, mesmo estudando a conta e conhecendo o cliente, sempre é importante demonstrar interesse em conhecer, como por exemplo, conte uma coisa legal, interessante sobre a sua empresa que provavelmente eu não saiba!</p>
+            </li>
+            <li id="description-2">
+                <p>
+                    Explorar o que há de novo mostrando Microsoft Loop, Microsoft Designer, Microsoft Clip Champ, Whiteboard, lists. Uma visão geral das últimas atualizações e recursos, permitindo que os participantes fiquem por dentro das novas ferramentas e tecnologias.
+                </p>
+            </li>
+          <li id="description-3">
+                <p>Instruções detalhadas e demonstrações práticas sobre como usar as novas ferramentas e recursos. Isso pode incluir uma visão geral das funcionalidades, melhores práticas e dicas úteis para otimizar o uso.</p>
+          </li>
+          <li id="description-4">
+                <p> Discussão e análise de como as novas ferramentas e tecnologias podem ser aplicadas em cenários de negócios reais. Isso pode incluir estudos de caso, exemplos práticos e brainstorming sobre como integrar as ferramentas nas operações diárias.</p>
+          </li>
+          <li id="description-5">
+            <p>Uma sessão prática onde os participantes terão a oportunidade de experimentar as ferramentas e tecnologias em um ambiente controlado. Isso pode incluir exercícios práticos, simulações e oportunidades para perguntas e respostas.</p>    
+          </li>
+          <li id="description-6">
+               <p> Resumo das principais conclusões e discussão dos próximos passos. Isso pode incluir um plano de ação, recursos adicionais e como continuar a explorar e integrar as ferramentas e tecnologias apresentadas.</p>
+          </li>
+          <li id="description-7">
+                <p>Uma demonstração especial e interativa usando o Microsoft Hololens. Isso pode incluir uma experiência imersiva em realidade aumentada, mostrando como a tecnologia pode ser aplicada em diferentes contextos de negócios, e permitindo que os participantes experimentem a tecnologia em primeira mão.</p>
+          </li>
+         </ul>
+      </div>
+     </div>
+    </section>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>

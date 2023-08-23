@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MW MTC</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2cbadf8cfc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<main>
+  <header class="header">
+    <a href="/">
+        <h1>MW MTC</h1>
+    </a>
+</header>
+    <section class="menu">
+      <span class="menu-toggle" onclick="toogleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      <p class="text-options">Options</p>
+      </span>
+      <ul>
+        <li>
+          <a href="/">
+             <h2>
+                 Início
+             </h2> 
+          </a>
+      </li>
+          <li>
+              <a href="mw-frontline-introductory-journey.html" >
+                 <h2>
+                     MW Frontline Introductory Journey
+                 </h2> 
+              </a>
+          </li>
+          <li>
+              <a href="/mw-information-worker-introductory-journey.html" style="text-decoration: underline!important;">
+             <h2>
+              MW Information Worker Introductory Journey
+             </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/ai.html">
+                  <h2>
+                      AI
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/new-tools.html">
+                  <h2>
+                      New Tools
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/from-onboard-to-maintaining-effective-communication-and-connection-with-the-workForce.html">
+                  <h2>
+                      From Onboard to maintaining effective communication and connection with the WorkForce
+                  </h2>
+              </a>
+          </li>
+      </ul>
+  </section>
+  <div class="title-page">
+    <h2>MW Information Worker Introductory Journey</h2>
+  </div>
+    <section class="agenda">
+      <span>schedule</span>
+     <div class="container">
+      <ul class="ulShow">
+        <li onclick="showDescription(1)">
+          <h3>Welcome & Customer Discussion</h3>
+        </li>
+        <li onclick="showDescription(2)">
+          <h3>Suite Discussion</h3>
+        </li>
+        <li onclick="showDescription(3)">
+          <h3>The Journey</h3>
+        </li>
+        <li onclick="showDescription(4)">
+          <h3>Challenges Perspectives</h3>
+        </li>
+        <li onclick="showDescription(5)">
+          <h3>Wrap up and Next steps</h3>
+        </li>
+        <li onclick="showDescription(6)">
+          <h3>Magic Moment (Hololens)</h3>
+        </li>
+      </ul>
+      <div class="description">
+        <span>Description</span>
+        <ul>
+          <li id="description-1" class="active">
+            <p>Objetivo: Criar uma abertura para conhecer as pessoas do cliente, permitindo que o cliente compartilhe algo interessante sobre sua empresa.
+                Atividades: Perguntas abertas como "Conte algo legal sobre a sua empresa que provavelmente eu não saiba!" para estimular o diálogo e demonstrar interesse genuíno.</p>  
+          </li>
+          <li id="description-2">
+            <p>Objetivo: Apresentar a Mandala M365 e provocar uma tensão construtiva sobre as inúmeras soluções dentro do M365, mesmo nas suítes mais básicas.
+                Atividades: Discussão sobre como conectar as ferramentas com o negócio, evitar duplicidade (como Planner e Trello) e iniciar uma provocação construtiva.</p>
+          </li>
+          <li id="description-3">
+             <p>Objetivo: Apresentar a jornada do colaborador e desafiar o cliente a contar se essa jornada é mapeada, mostrando que ela tem várias perspectivas.
+                    Atividades: Discussão sobre como encarar o negócio da perspectiva de áreas como negócios, RH, Comunicação, Operações, Logística, CSO, etc.</p>
+           </li>
+          <li id="description-4">
+            <p>Objetivo: Apresentar desafios comuns entre empresas para áreas de negócios e instigar o cliente a fazer correspondência com os desafios apresentados e expor outras necessidades.
+                Atividades: Discussão e análise de desafios, identificação de necessidades específicas do cliente.</p>
+          </li>
+          <li id="description-5">
+            <p> Resumo das principais conclusões e discussão dos próximos passos. Isso pode incluir um plano de ação, recursos adicionais e como continuar a explorar e integrar as ferramentas e tecnologias apresentadas.</p>
+          </li>
+          <li id="description-6">
+            <p>Uma demonstração especial e interativa usando o Microsoft Hololens. Isso pode incluir uma experiência imersiva em realidade aumentada, mostrando como a tecnologia pode ser aplicada em diferentes contextos de negócios, e permitindo que os participantes experimentem a tecnologia em primeira mão.</p>  
+          </li>
+         </ul>
+      </div>
+     </div>
+    </section>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>

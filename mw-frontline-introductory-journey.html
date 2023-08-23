@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MW MTC</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2cbadf8cfc.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+  <header class="header">
+    <a href="/">
+        <h1>MW MTC</h1>
+    </a>
+</header>
+  <main>
+    <section class="menu">
+      <span class="menu-toggle" onclick="toogleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      <p class="text-options">Options</p>
+      </span>
+      <ul>
+        <li>
+          <a href="/">
+             <h2>
+                 Início
+             </h2> 
+          </a>
+      </li>
+          <li>
+              <a href="mw-frontline-introductory-journey.html" style="text-decoration: underline!important;">
+                 <h2>
+                     MW Frontline Introductory Journey
+                 </h2> 
+              </a>
+          </li>
+          <li>
+              <a href="/mw-information-worker-introductory-journey.html">
+             <h2>
+              MW Information Worker Introductory Journey
+             </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/ai.html">
+                  <h2>
+                      AI
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/new-tools.html">
+                  <h2>
+                      New Tools
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/from-onboard-to-maintaining-effective-communication-and-connection-with-the-workForce.html">
+                  <h2>
+                      From Onboard to maintaining effective communication and connection with the WorkForce
+                  </h2>
+              </a>
+          </li>
+      </ul>
+  </section>
+  <div class="title-page">
+    <h2>MW Frontline Introductory Journey</h2>
+  </div>
+    <section class="agenda">
+      <span>schedule</span>
+     <div class="container">
+      <ul class="ulShow">
+        <li onclick="showDescription(1)">
+          <h3>Welcome & Customer Discussion</h3>
+        </li>
+        <li onclick="showDescription(2)">
+          <h3>Suite Discussion</h3>
+        </li>
+        <li onclick="showDescription(3)">
+          <h3>The Journey</h3>
+        </li>
+        <li onclick="showDescription(4)">
+          <h3>Challenges Perspectives</h3>
+        </li>
+        <li onclick="showDescription(5)">
+          <h3>Teams Plat Demo</h3>
+        </li>
+        <li onclick="showDescription(6)">
+          <h3>Wrap up and Next steps</h3>
+        </li>
+        <li onclick="showDescription(7)">
+          <h3>Magic Moment (Hololens)</h3>
+        </li>
+      </ul>
+      <div class="description">
+        <span>Description</span>
+        <ul>
+          <li id="description-1" class="active">
+            <p>Uma abertura para conhecer as pessoas do cliente, deixar o cliente contar um pouco sobre ele, mesmo estudando a conta e conhecendo o cliente, sempre é importante demonstrar interesse em conhecer, como por exemplo, conte uma coisa legal, interessante sobre a sua empresa que provavelmente eu não saiba!</p>
+        </li>
+          <li id="description-2">
+            <p>Apresentar a Mandala M365 e provocar uma tensão construtiva das inúmeras soluções que vem dentro do M365 mesmo nas suítes mais básicas, e o desafio de explorar e fazer com que elas se conectem com o negócio, muitas vezes fazendo frente a soluções já adquiridas e por falta de entendimento gerando duplicidade de objetivo, como Planner e Trello, porque pagar Trello se já possuo o Planner em meu licenciamento? Iniciar uma provocação construtiva</p>
+          </li>
+          <li id="description-3">
+            <p>Apresentar a jornada do colaborador e desafiar o cliente contar se essa jornada é mapeada, mostrar que a jornada ela tem varias perspectiva, e começar o “aquece” para mostrar que é preciso encarar o negocio da perspectiva de negócios, RH, Comunicação, Operações, Logistica, CSO....</p>
+          </li>
+          <li id="description-4">
+            <p>Apresentar alguns desafios já mapeados e comuns entre empresas para áreas de negócios, e instigar o cliente a fazer Match com os desafios que apresentamos e expor outras necessidades.</p>
+          </li>
+          <li id="description-5">
+            <p>Mostrar as possibilidades do Teams como plataforma, para processos de Frontline, como ele pode agilizar a comunicação, acesso a ferramentas como holerite, treinamentos, tudo em um único lugar</p>
+          </li>
+          <li id="description-6">
+            <p>Finalização, entendimento, validação das oportunidades novas levantadas e próximos passos!</p>
+          </li>
+          <li id="description-7">
+            <p>Uma demo de Hololens para publicos pequenos de até 10 pessoas bem empolgante.</p>
+          </li>
+        </ul>
+      </div>
+     </div>
+    </section>
+
+  
+</main>
+<script src="./script.js"></script>
+</body>
+</html>

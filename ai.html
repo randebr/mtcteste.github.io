@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MW MTC</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2cbadf8cfc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<main>
+  <header class="header">
+    <a href="/">
+        <h1>MW MTC</h1>
+    </a>
+</header>
+    <section class="menu">
+      <span class="menu-toggle" onclick="toogleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      <p class="text-options">Options</p>
+      </span>
+      <ul>
+        <li>
+          <a href="/">
+             <h2>
+                 Início
+             </h2> 
+          </a>
+      </li>
+          <li>
+              <a href="mw-frontline-introductory-journey.html" >
+                 <h2>
+                     MW Frontline Introductory Journey
+                 </h2> 
+              </a>
+          </li>
+          <li>
+              <a href="/mw-information-worker-introductory-journey.html">
+             <h2>
+              MW Information Worker Introductory Journey
+             </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/ai.html" style="text-decoration: underline!important;">
+                  <h2>
+                      AI
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/new-tools.html">
+                  <h2>
+                      New Tools
+                  </h2>
+              </a>
+          </li>
+          <li>
+              <a href="/from-onboard-to-maintaining-effective-communication-and-connection-with-the-workForce.html">
+                  <h2>
+                      From Onboard to maintaining effective communication and connection with the WorkForce
+                  </h2>
+              </a>
+          </li>
+      </ul>
+  </section>
+  <div class="title-page">
+    <h2>AI</h2>
+  </div>
+    <section class="agenda">
+      <span>schedule</span>
+     <div class="container">
+      <ul class="ulShow">
+        <li onclick="showDescription(1)">
+          <h3>Welcome & Customer Discussion</h3>
+        </li>
+        <li onclick="showDescription(2)">
+          <h3>Viva Copilot</h3>
+        </li>
+        <li onclick="showDescription(3)">
+          <h3>Microsoft Security Copilot</h3>
+        </li>
+        <li onclick="showDescription(4)">
+          <h3>Dynamics 365 copilot</h3>
+        </li>
+        <li onclick="showDescription(5)">
+          <h3>Azure Open AI Service</h3>
+        </li>
+        <li onclick="showDescription(6)">
+          <h3>Azure AI studio</h3>
+        </li>
+        <li onclick="showDescription(7)">
+            <h3>Azure Machine Learning</h3>
+          </li>
+          <li onclick="showDescription(8)">
+            <h3>Wrap up and Next steps</h3>
+          </li>
+          <li onclick="showDescription(9)">
+            <h3>Magic Moment (Hololens)</h3>
+          </li>
+      </ul>
+      <div class="description">
+        <span>Description</span>
+        <ul>
+            <li id="description-1" class="active">
+                <p>
+                    Uma abertura para conhecer as pessoas do cliente, deixar o cliente contar um pouco sobre ele, mesmo estudando a conta e conhecendo o cliente, sempre é importante demonstrar interesse em conhecer, como por exemplo, conte uma coisa legal, interessante sobre a sua empresa que provavelmente eu não saiba!
+                </p>
+            </li>
+            <li id="description-2">
+                <p>
+                    Demos de Viva Copilot e apresentação de possíveis cenários de negócios e facilidades da solução para área de negócios
+                </p>
+            </li>
+          <li id="description-3">
+            <p>Bem-vindos à apresentação do Microsoft Security Copilot</p>
+            <p>A solução de segurança inovadora projetada para proteger, monitorar e otimizar seus sistemas de TI.</p>
+            <p>Nesta apresentação, exploraremos as características únicas e as capacidades avançadas desta ferramenta, que integra-se perfeitamente ao seu ambiente de trabalho, oferecendo uma proteção robusta contra ameaças cibernéticas.</p>
+            <p>O Microsoft Security Copilot foi desenvolvido com a mais recente tecnologia de inteligência artificial e aprendizado de máquina, permitindo uma detecção proativa e resposta rápida a qualquer atividade suspeita.</p>
+            <p>Seja você um profissional de TI buscando fortalecer a segurança da sua empresa ou um indivíduo preocupado com a proteção de dados pessoais, esta solução oferece uma abordagem personalizada para atender às suas necessidades específicas.</p>
+            <p>Durante esta apresentação, vamos:</p>
+            <p>Explorar as Principais Funcionalidades: Conheça as ferramentas e recursos que tornam o Microsoft Security Copilot uma escolha líder em segurança cibernética.</p>
+            <p>Demonstrar a Integração: Veja como essa solução se integra facilmente com outros produtos e serviços da Microsoft, proporcionando uma experiência de usuário coesa.</p>
+            <p>Analisar Casos de Uso: Descubra como empresas de diferentes setores estão utilizando o Microsoft Security Copilot para melhorar sua postura de segurança.</p>
+            <p>Responder às Suas Perguntas: Teremos uma sessão de perguntas e respostas no final da apresentação para abordar quaisquer dúvidas ou preocupações que você possa ter.</p>
+           </li>
+          <li id="description-4">
+            <p>Nesta apresentação, você terá uma visão detalhada das seguintes áreas:</p>
+            <p>Integração e Colaboração: Como o Dynamics 365 Copilot facilita a colaboração entre equipes e integra-se perfeitamente com outras ferramentas da Microsoft, como o Office 365 e o Azure.</p>
+            <p>Análise de Dados e Inteligência Artificial: Uma exploração das capacidades de análise de dados e IA, que permitem às empresas prever comportamentos de clientes, identificar oportunidades de vendas e otimizar operações.</p>
+            <p>Automação e Eficiência: Demonstraremos como a automação de processos de negócios pode economizar tempo e recursos, permitindo que sua equipe se concentre em tarefas mais estratégicas.</p>
+            <p>Personalização e Experiência do Cliente: Como o Dynamics 365 Copilot permite criar experiências personalizadas para seus clientes, aumentando a satisfação e a lealdade.</p>
+            <p>Segurança e Conformidade: Uma visão geral das robustas medidas de segurança e conformidade que garantem que seus dados estejam protegidos e em conformidade com regulamentações globais.</p>
+          </li>
+          <li id="description-5">
+            <p>Nesta apresentação, exploraremos o Azure OpenAI Service</p>
+            <p>Como o Azure OpenAI Service permite que desenvolvedores e empresas integrem modelos de IA de última geração em suas aplicações e serviços.</p>
+            <p>Com uma plataforma robusta e escalável, o Azure OpenAI Service oferece uma variedade de ferramentas e recursos que simplificam o desenvolvimento e a implantação de soluções de IA.</p>
+            <p>Começaremos com uma visão geral do que é o Azure OpenAI Service, incluindo suas principais características e benefícios. Em seguida, mergulharemos em detalhes técnicos, mostrando como você pode utilizar essa tecnologia para criar soluções personalizadas que atendam às suas necessidades específicas.</p>
+            <p>Vamos explorar casos de uso reais, demonstrando como empresas de diferentes setores estão aproveitando o poder do Azure OpenAI Service para inovar e otimizar seus processos. Seja no atendimento ao cliente, análise de dados, automação ou qualquer outra área, a flexibilidade e o poder dessa plataforma estão abrindo novas possibilidades.</p>
+            <p>Além disso, discutiremos as melhores práticas de segurança e conformidade, garantindo que suas implementações de IA estejam alinhadas com as regulamentações e padrões da indústria.</p>
+            <p>Por fim, teremos uma sessão de perguntas e respostas, onde você terá a oportunidade de esclarecer qualquer dúvida e aprender mais sobre como o Azure OpenAI Service pode ser a chave para a transformação digital da sua organização.</p>
+            <p>Junte-se a nós nesta jornada empolgante pelo mundo da inteligência artificial, e descubra como o Azure OpenAI Service está moldando o futuro da tecnologia. A inovação está ao seu alcance, e estamos aqui para ajudá-lo a aproveitá-la.</p>    
+          </li>
+          <li id="description-6">
+                <p>Durante esta apresentação, vamos mergulhar em:</p>
+                <p>Adentrando o universo da Inteligência Artificial (IA) com a Microsoft, esta seção do workshop é dedicada a apresentar e explorar o Azure AI Studio, uma plataforma integrada que facilita a construção, treinamento e implantação de soluções de IA.</p>
+
+                <p>Pontos-chave abordados:</p>
+                <p>Introdução ao Azure AI Studio: Uma visão geral da plataforma, destacando sua importância no ecossistema de soluções de IA da Microsoft.</p>
+                <p>Ambiente de Desenvolvimento: Como configurar e personalizar o Azure AI Studio para atender às necessidades específicas de seus projetos de IA.</p>
+                <p>Construção e Treinamento de Modelos: Um guia passo a passo sobre como criar, treinar e otimizar modelos de machine learning dentro da plataforma.</p>
+                <p>Integração com Outros Serviços Azure: Aprenda a potencializar suas soluções de IA integrando-as com outros serviços e ferramentas disponíveis no Azure.</p>
+                <p>Implantação e Escalabilidade: Dicas e melhores práticas para implantar modelos treinados em ambientes de produção, garantindo escalabilidade e desempenho.</p>
+                <p>Monitoramento e Manutenção: Uma visão sobre as ferramentas disponíveis no Azure AI Studio para monitorar o desempenho dos modelos e realizar ajustes conforme necessário.</p>
+
+                <p>Ao final desta seção, os participantes terão uma compreensão clara do que o Azure AI Studio tem a oferecer e como ele pode ser uma ferramenta valiosa para acelerar a jornada de IA de qualquer organização. Com demonstrações práticas e estudos de caso, os participantes serão equipados com o conhecimento e as habilidades necessárias para começar a usar o Azure AI Studio em seus próprios projetos.</p>
+
+                <p>Introdução ao Azure Open AI Studio: Uma visão geral da plataforma, incluindo suas principais características e benefícios.</p>
+                <p>Modelos Pré-treinados e Personalização: Como utilizar modelos existentes e adaptá-los às suas necessidades específicas.</p>
+                <p>Colaboração e Eficiência: As ferramentas que facilitam o trabalho em equipe e aceleram o desenvolvimento de projetos de IA.</p>
+                <p>Segurança e Conformidade: Uma análise das medidas de segurança robustas e das opções de conformidade disponíveis.</p>
+                <p>Casos de Uso e Aplicações na Indústria: Exemplos reais de como o Azure Open AI Studio está sendo usado para resolver problemas complexos em diversos setores.</p>
+
+        </li>
+          <li id="description-7">
+            <p>Nesta apresentação, exploraremos as principais características e funcionalidades do Azure Machine Learning, incluindo a preparação de dados, treinamento de modelos, otimização de hiperparâmetros e implantação em escala. Vamos mergulhar em como essa plataforma permite que cientistas de dados, engenheiros e profissionais de negócios colaborem de maneira eficiente, utilizando uma variedade de ferramentas e linguagens de programação.</p>
+            <p>Através de demonstrações práticas, você verá como o Azure Machine Learning facilita o desenvolvimento e a gestão de modelos de aprendizado de máquina, oferecendo uma abordagem integrada que abrange desde a experimentação até a produção. Com recursos como o Azure ML Studio, você pode criar, treinar e implantar modelos sem a necessidade de escrever código, tornando o processo acessível a todos, independentemente do nível de habilidade técnica.</p>
+            <p>Além disso, discutiremos como o Azure Machine Learning se integra com outras ferramentas e serviços da Microsoft, como o Power BI e o Azure IoT, permitindo uma análise de dados robusta e insights em tempo real.</p>
+        </li>
+          <li id="description-8">
+                <p>Finalização, entendimento, validação das oportunidades novas levantadas e próximos passos!</p>
+            </li>
+          <li id="description-9">
+                <p>Uma demo de Hololens para publicos pequenos de até 10 pessoas bem empolgante.</p>  
+          </li>
+         </ul>
+      </div>
+     </div>
+    </section>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
